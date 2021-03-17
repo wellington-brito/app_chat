@@ -1,0 +1,21 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "*",
+    "node-sass": "4.9",
+    "socket.io": "*"
+  },
+  "devDependencies": {
+    "nodemon": "*",
+    "sass-loader": "^11.0.1"
+  },
+  "author": "Berew",
+  "license": "ISC"
+}
